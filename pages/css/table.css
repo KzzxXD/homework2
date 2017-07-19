@@ -1,0 +1,20 @@
+    body{
+        margin:1vmin;
+        padding: 1vmin;
+        background: rgba(4,178,120, .2);
+    }
+    td{
+    border:0.05vmin solid black;
+    width:12vmin;
+    font-size: 3vmin;
+    
+}
+table{   
+    border:0.05vmin solid black;
+    height:45vmin;
+}
+
+td:hover{
+    transition: 1s;
+    background: rgba(4,178,7, .5);
+}

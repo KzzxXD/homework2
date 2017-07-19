@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="main">
+		<header>
+			<div class="container" id="asdas">
+				<h1 class="text-header">Соціальне опитування</h1>
+				<form action="#poll">				
+				<button class="button-header">Перейти до опитування
+				<span class="background-button"></span>
+				</button>
+				</form>
+			</div>		
+		</header>
+		<article>
+		<div class="container" id="poll">
+			<div class="poll-content">
+				<h2 class="">Яку країну Ви би хотіли відвідати?</h2>
+				<form id="poll-table" action="https://formspree.io/romantylchak29@gmail.com" method="POST">
+					<p class="p-content">
+						<label>Ваше ім'я:
+							<input class="inpt-content" type="text" maxlength="15" required >
+						</label>
+						<label>Email.:
+							<input class="inpt-content" type="email" maxlength="66" required >
+						</label>
+
+						<br>
+						<br>
+						<label>Китай
+							<input class="rado-content" type="radio" name="country" value="china" required>							
+						</label>
+						<label>Іспанія
+							<input class="rado-content" type="radio" name="country" value="Spaon" required>							
+						</label>
+						<label>Франція
+							<input class="rado-content" type="radio" name="country" value="France" required>							
+						</label>
+						<label>Ліхтенштейн  
+							<input class="rado-content" type="radio" name="country" value="Liechtenstein" required>							
+						</label>
+						<br>
+						<br>
+						<label>Польща
+							<input class="rado-content" type="radio"  name="country" value="Poland" required>							
+						</label>
+						<label>Ватикан
+							<input class="rado-content" type="radio" name="country" value="Vatican" required>							
+						</label>
+						<label>Бельгія
+							<input class="rado-content" type="radio" name="country" value="Belgium" required>							
+						</label>
+						<label>Фінляндія
+							<input class="rado-content" type="radio" name="country" value="Finland" required>							
+						</label>
+						<br>
+						<br>
+						<label>Хорватія
+							<input class="rado-content" type="radio" name="country" value="Croatia" required>							
+						</label>
+						<label>Пакистан
+							<input class="rado-content" type="radio" name="country" value="Pakistan" required>							
+						</label>
+						<label>Австралія
+							<input class="rado-content" type="radio" name="country" value="Australia" required>							
+						</label>
+						<label>Єгипет
+							<input class="rado-content" type="radio" name="country" value="Egypt" required>							
+						</label>
+						<label class="labell-content">Скільки вам років:
+							<input type="number" name="years" min="1" max="100" required class="years-content">
+						</label>
+						<select class="section-content">							
+							<option>Чоловіча</option>
+							<option>Жіноча</option>
+						</select>												
+					</p>
+					<label>
+						<textarea name="coment" id="coment-content" cols="30"  rows="10"></textarea>
+					</label>
+					<input type="submit" value="Відправити" class="button-content" name="submit">			
+				</form>											
+			</div>
+			<form action="pages/table.html">
+			<button class="tabel-content">Перейти до таблиці</button>
+			</form>
+		</div> 					
+		</article>
+		</div>
+
+	<script type="text/javascript" src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/scroll.js"></script>
+</body>
+</html>
